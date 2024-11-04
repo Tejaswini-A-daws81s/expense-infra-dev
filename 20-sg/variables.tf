@@ -22,3 +22,10 @@ variable "sg_tags" {
         environment = "dev"
     }
 }
+
+variable "app_alb_tags" {
+     default = {
+        component = "app_alb"
+    }
+}
+
